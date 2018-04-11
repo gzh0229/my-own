@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="test all">
+
+	<test name="test case01">
+		<classes>
+			<class name="com.java.testng.annotation.BeforeAndAfter" />
+			<class name="com.java.testng.annotation.UnitTest" />
+		</classes>
+	</test>
+
+	<test name="test case02">
+		<classes>
+			<class name="com.java.testng.annotation.BeforeAndAfter" />
+			<class name="com.java.testng.annotation.GroupsTest" />
+		</classes>
+	</test>
+
+</suite>
