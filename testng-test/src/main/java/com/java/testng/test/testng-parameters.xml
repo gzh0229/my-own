@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite>
+	<test name="parameters">
+		<parameter name="dbconfig" value="application.properties" />
+		<parameter name="poolsize" value="10" />
+
+		<classes>
+			<class name="com.java.testng.test.ParametersTest" />
+		</classes>
+	</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
