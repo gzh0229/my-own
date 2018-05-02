@@ -1,4 +1,4 @@
-package test;
+package com.java.test;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

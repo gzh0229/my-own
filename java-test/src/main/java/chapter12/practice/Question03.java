@@ -1,6 +1,6 @@
 package chapter12.practice;
 
-import test.MyException;
+import com.java.test.MyException;
 
 /*
  * 求最大公约数

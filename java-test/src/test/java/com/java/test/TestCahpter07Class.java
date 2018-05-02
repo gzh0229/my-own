@@ -1,4 +1,4 @@
-package test;
+package com.java.test;
 
 import chapter07.TestClass02;
 
