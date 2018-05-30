@@ -7,14 +7,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>gzh0229</groupId>
+		<groupId>com.java.gzh</groupId>
 		<artifactId>my-own</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0</version>
 	</parent>
 
 	<artifactId>testng-test</artifactId>
 	<version>0.0.1</version>
-	<name>testng-test</name>
 
 	<dependencies>
 		<dependency>

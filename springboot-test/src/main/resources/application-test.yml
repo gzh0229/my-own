@@ -1,0 +1,12 @@
+server:
+  port: 8082
+  context-path: /test
+  
+name: gzh
+age: 18
+
+context: "name:${name},age:${age}"
+
+user: 
+  mob: 13636609501
+  gender: male
