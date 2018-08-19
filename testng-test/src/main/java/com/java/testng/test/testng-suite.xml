@@ -5,15 +5,15 @@
 
 	<test name="test case01">
 		<classes>
-			<class name="com.java.testng.annotation.BeforeAndAfter" />
-			<class name="com.java.testng.annotation.UnitTest" />
+			<class name="com.java.testng.test.BeforeAndAfter" />
+			<class name="com.java.testng.test.UnitTest" />
 		</classes>
 	</test>
 
 	<test name="test case02">
 		<classes>
-			<class name="com.java.testng.annotation.BeforeAndAfter" />
-			<class name="com.java.testng.annotation.GroupsTest" />
+			<class name="com.java.testng.test.BeforeAndAfter" />
+			<class name="com.java.testng.test.GroupsTest" />
 		</classes>
 	</test>
 

@@ -1,12 +1,14 @@
 server:
   port: 8082
   context-path: /test
-  
 name: gzh
 age: 18
-
-context: "name:${name},age:${age}"
-
-user: 
+context: name:${name},age:${age}
+user:
   mob: 13636609501
   gender: male
+datasource: 
+  dirver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/test_db01
+  username: root
+  password: root
