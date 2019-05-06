@@ -9,13 +9,8 @@
     <!-- 指定 MyBatis 数据库配置文件 -->
     <properties resource="db.properties"/>
 
-    <!-- 指定 MyBatis 所用日志的具体实现 -->
-    <settings>
-        <setting name="logImpl" value="LOG4J"/>
-    </settings>
-
     <typeAliases>
-        <typeAlias alias="User" type="com.java.domain.User"/>
+        <typeAlias alias="User" type="com.java.dao.User"/>
     </typeAliases>
 
     <environments default="test">
@@ -37,7 +32,7 @@
     </environments>
 
     <mappers>
-        <mapper resource="com.java.mapper.UserMapper.xml"/>
+        <mapper resource="mapper/UserMapper.xml"/>
     </mappers>
 
 </configuration>
