@@ -1,6 +1,6 @@
 package chapter11;
 
-import com.java.test.Date;
+import java.util.Date;
 
 public class TestDate {
 
