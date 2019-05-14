@@ -1,4 +1,0 @@
-#端口号
-server.port=8081
-
-server.context-path=/test

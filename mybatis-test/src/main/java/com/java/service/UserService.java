@@ -1,8 +1,9 @@
 package com.java.service;
 
 import com.alibaba.fastjson.JSONObject;
-import com.java.dao.User;
 import com.java.mapper.UserMapper;
+import com.java.model.User;
+
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

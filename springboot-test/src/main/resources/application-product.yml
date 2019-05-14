@@ -1,9 +1,0 @@
-server:
-  port: 8081
-  context-path: /product
-name: lili
-age: 17
-context: name:${name},age:${age}
-user:
-  mob: 18711110001
-  gender: female

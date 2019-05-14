@@ -1,7 +1,8 @@
 package com.java.mapper;
 
-import com.java.dao.User;
 import org.apache.ibatis.annotations.Param;
+
+import com.java.model.User;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.java.dao;
+package com.java.model;
 
 public class User {
 
