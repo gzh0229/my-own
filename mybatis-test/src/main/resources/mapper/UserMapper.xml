@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.java.mapper.UserMapper">
-    <resultMap id="BaseResultMap" type="com.java.dao.User">
+    <resultMap id="BaseResultMap" type="com.java.model.User">
         <id column="id" property="id"/>
         <result column="realName" property="realName"/>
         <result column="age" property="age"/>
@@ -12,8 +12,7 @@
         <result column="address" property="address"/>
     </resultMap>
 
-
-    <select id="getUserById" parameterType="int" resultType="com.java.dao.User">
+    <select id="getUserById" parameterType="int" resultType="com.java.model.User">
         select * from `user`
         <if test="id != null">
             where id = #{id}
