@@ -1,0 +1,12 @@
+students:
+  name: "张三"
+  score:
+    Chinese: "90"
+    Math: "98"
+    English: "95"
+student02:
+  name: "李四"
+  score:
+    Chinese: "80"
+    Math: "88"
+    English: "85"
