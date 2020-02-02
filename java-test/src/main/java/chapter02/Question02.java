@@ -7,6 +7,11 @@ import java.util.Scanner;
 
 import org.junit.Test;
 
+/***
+ * 加减乘除
+ * @author gzh
+ *
+ */
 public class Question02 {
 
 	@Test

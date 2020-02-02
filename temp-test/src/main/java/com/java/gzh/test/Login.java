@@ -1,4 +1,4 @@
-package com.java.testng.dataprovider;
+package com.java.gzh.test;
 
 public class Login {
 
@@ -18,11 +18,6 @@ public class Login {
             isLogin = true;
             return "欢迎" + name;
         }
-    }
-
-    public static void main(String[] args) {
-        Login login = new Login();
-        login.userLogin("1", "2");
     }
 
 }
