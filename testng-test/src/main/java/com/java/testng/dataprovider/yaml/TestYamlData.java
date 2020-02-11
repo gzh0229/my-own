@@ -14,7 +14,7 @@ public class TestYamlData {
 
     @Test(dataProvider = "yamlDataProvider", dataProviderClass = YamlDataHelper.class)
     public void testYaml02(Map<String, String> map) {
-        //System.out.println("map:" + JSONObject.toJSONString(map));
+        System.out.println("map:" + JSONObject.toJSONString(map));
     }
 
 }
