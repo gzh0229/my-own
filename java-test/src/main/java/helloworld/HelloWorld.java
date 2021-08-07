@@ -1,10 +1,10 @@
-package chapter01;
+package helloworld;
 
 public class HelloWorld {
 
 	public static void main(String[] args) {
 		System.out.println("----------");
-		System.out.println("我要学会，\nJava语言！");
+		System.out.println("我爱\nJava！");
 	}
 	
 }
